@@ -380,7 +380,7 @@ Then
 
 ## Testing
 
-sudo apt install stress
+`sudo apt install stress`
 stress --cpu 4 --timeout 300  # Simulates high CPU usage
 
 
