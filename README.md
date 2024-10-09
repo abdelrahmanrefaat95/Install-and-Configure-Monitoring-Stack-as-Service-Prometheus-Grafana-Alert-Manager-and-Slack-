@@ -381,7 +381,8 @@ Then
 ## Testing
 
 `sudo apt install stress`
-stress --cpu 4 --timeout 300  # Simulates high CPU usage
+
+`stress --cpu 4 --timeout 300`  # Simulates high CPU usage
 
 
 **Wait for the message from Alertmanager on your slack channel**
